@@ -46,12 +46,41 @@
       </div>
     </nav>
 
-    <div class="container" style="margin-top:2em;">
-
-      <div>
-        <h1>More than Just Juice </h1>
-        <img src="juice_pic_1.jpg" class="img fluid" alt = "Responsive Image">
-      </div>
+    <div>
+        <style>
+            .container {
+              position: relative;
+              width: 100%;
+              max-width: 300px; 
+            }
+            
+            .image {
+              display: block;
+              width: 100%;
+              height: auto;
+            }
+            
+            .overlay-text {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              background-color: rgba(255, 255, 255, 0.7); /* Adjust the opacity as needed */
+              padding: 10px;
+              border-radius: 5px;
+            }
+          </style>
+        
+          
+          <div class="container.fluid">
+            <img src="juice_pic_1.jpg" alt="Responsive Image" class="img fluid">
+            <div class="overlay-text">
+              <h2>Juice Laundry: <br> juice to fuel your life</h2>
+            </div>
+          </div>
+        <div>
+          </body>
+    </div>
 
      </div>
 
